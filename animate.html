@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS变形与动画</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .bg {
+            margin-top: 100px;
+            margin-left: 100px;
+            background: url(image/bg3.JPG);
+            background-origin: content-box;
+        }
+        
+        .bg img {
+            margin-top: 10px;
+            margin-left: 10px;
+            height: 85px;
+            padding: 10px;
+            padding-bottom: 35px;
+            position: absolute;
+            transition: 1s;
+            background: white;
+        }
+        
+        .bg img:hover {
+            transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            box-shadow: 5px 5px 5px rgb(235, 248, 206);
+            z-index: 99;
+        }
+        
+        .a1 {
+            margin-top: 110px;
+            margin-left: 75px;
+            position: absolute;
+            transform: rotate(-2deg);
+            -webkit-transform: rotate(-2deg);
+            -moz-transform: rotate(-2deg);
+        }
+        
+        .b1 {
+            margin-top: 110px;
+            margin-left: 230px;
+            position: absolute;
+            transform: rotate(1deg);
+            -webkit-transform: rotate(1deg);
+            -moz-transform: rotate(1deg);
+        }
+        
+        .c1 {
+            margin-top: 110px;
+            margin-left: 375px;
+            position: absolute;
+            transform: rotate(-8deg);
+            -webkit-transform: rotate(-8deg);
+            -moz-transform: rotate(-8deg);
+        }
+        
+        .d1 {
+            margin-top: 110px;
+            margin-left: 520px;
+            position: absolute;
+            transform: translateY(10px);
+            -webkit-transform: rotate(10deg);
+            -moz-transform: rotate(10deg);
+        }
+        
+        .e1 {
+            width: 60px;
+            margin-top: 110px;
+            margin-left: 670px;
+            position: absolute;
+            transform: rotate(-3deg);
+            -webkit-transform: rotate(-3deg);
+            -moz-transform: rotate(-3deg);
+        }
+        
+        .f1 {
+            width: 60px;
+            margin-top: 110px;
+            margin-left: 815px;
+            position: absolute;
+            transform: rotate(-7deg);
+            -webkit-transform: rotate(-7deg);
+            -moz-transform: rotate(-7deg);
+        }
+        
+        .a {
+            top: 100px;
+            left: 107px;
+            transform: rotate(-2deg);
+            -webkit-transform: rotate(-2deg);
+            -moz-transform: rotate(-2deg);
+        }
+        
+        .b {
+            top: 100px;
+            left: 280px;
+            transform: rotate(1deg);
+            -webkit-transform: rotate(1deg);
+            -moz-transform: rotate(1deg);
+        }
+        
+        .c {
+            top: 100px;
+            left: 405px;
+            transform: rotate(-8deg);
+            -webkit-transform: rotate(-8deg);
+            -moz-transform: rotate(-8deg);
+        }
+        
+        .d {
+            top: 100px;
+            left: 560px;
+            transform: translateY(10px);
+            -webkit-transform: rotate(10deg);
+            -moz-transform: rotate(10deg);
+        }
+        
+        .e {
+            top: 100px;
+            left: 715px;
+            transform: rotate(-3deg);
+            -webkit-transform: rotate(-3deg);
+            -moz-transform: rotate(-3deg);
+        }
+        
+        .f {
+            top: 100px;
+            left: 850px;
+            transform: rotate(-7deg);
+            -webkit-transform: rotate(-7deg);
+            -moz-transform: rotate(-7deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg" style="height: 180px;width: 950px;">
+        <img src="image/11.jpg" class="a">
+        <p class="a1">相识</p>
+        <img src="image/22.JPG" class="b">
+        <p class="b1">凝视</p>
+        <img src="image/33.jpg" class="c">
+        <p class="c1">甜睡</p>
+        <img src="image/44.jpg" class="d">
+        <p class="d1">逗乐</p>
+        <img src="image/55.jpg" class="e">
+        <p class="e1">奔跑</p>
+        <img src="image/66.jpg" class="f">
+        <p class="f1">漠视</p>
+    </div>
+</body>
+<script>
+</script>
+
+</html>
